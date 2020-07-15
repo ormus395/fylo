@@ -38,6 +38,27 @@ p {
   display: flex;
 }
 
+.form {
+  flex-direction: column;
+}
+
+.form input {
+  border: 1px solid hsl(243, 87%, 12%);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
 /* Header */
 
 .header {
@@ -87,27 +108,6 @@ p {
 
 .get-started {
   margin-bottom: 2rem;
-}
-
-.sign__up {
-  flex-direction: column;
-}
-
-.sign__up input {
-  border: 1px solid hsl(243, 87%, 12%);
-  border-radius: 5px;
-  margin-bottom: 1rem;
-  padding: 1rem;
-}
-
-.sign__up button {
-  background-color: hsl(224, 93%, 58%);
-  border: none;
-  border-radius: 5px;
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 700;
-  padding: 1rem;
 }
 
 .curve {
@@ -216,4 +216,38 @@ p {
   background-color: hsl(238, 22%, 44%);
   padding: 3rem 1rem;
   text-align: center;
+}
+
+.early-access__title {
+  margin-bottom: 1rem;
+}
+
+.early-access__text {
+  margin-bottom: 1.5rem;
+}
+
+.early-access__form input,
+.early-access__form button {
+  width: 90%;
+}
+
+/* Footer */
+
+.footer {
+  color: white;
+  background-color: hsl(243, 87%, 12%);
+  padding: 3rem 0;
+}
+
+.logo {
+  margin-bottom: 1.5rem;
+  width: 60%;
+}
+
+.footer-info ul {
+  margin-bottom: 2rem;
+}
+
+.footer-info ul li {
+  margin-bottom: 1rem;
 }
