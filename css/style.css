@@ -219,6 +219,10 @@ p {
   text-align: center;
 }
 
+.early-access .row {
+  flex-direction: column;
+}
+
 .early-access__title {
   margin-bottom: 1rem;
 }
@@ -245,12 +249,24 @@ p {
   width: 60%;
 }
 
+.footer-info {
+  flex-direction: column;
+}
+
 .footer-info ul {
   margin-bottom: 2rem;
 }
 
 .footer-info ul li {
   margin-bottom: 1rem;
+}
+
+.social {
+  margin: 0 auto;
+}
+
+.social li + li {
+  margin-left: 1rem;
 }
 
 @media only screen and (min-width: 900px) {
@@ -383,6 +399,9 @@ p {
   }
 
   /* social */
+  .social {
+    margin: 0;
+  }
   .social li {
     margin-left: 1rem;
   }
